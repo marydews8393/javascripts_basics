@@ -1,57 +1,53 @@
-body {
-    background: blue;
+.container {
+    background-color: #1d355c;
+    width: 970px;
+    padding: 10px;
 }
 .header {
-    width: 970px;
-    height: 60px;;
-    background-color: red;
-    color: white;
-    border-radius: 20px;
-    padding: 5px 0 25px 25px;
-    text-align: left;
-    margin: 15px;
+    width: 100%;
+    background-color: #cc323b;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.header h1 {
+    margin: 0;
+    padding: 15px 0 15px 15px;
+    color: #c3d6eb;
 }
 .toolbar {
-    background-color: cadetblue;
-    border-radius: 20px;
-    padding-right: 20px;
+    width: 180px;
+    background-color: #2f7d8b;
+    border-radius: 10px;
+    padding: 20px;
     display: inline-block;
-    list-style-position: inside;
-    vertical-align: top;
-    width: 225px;
+}
+.toolbar ul {
+    padding-left: 20px;
+    margin: 0;
+}
+.toolbar a{
+    color: #61cac7;
+    font-size: 16px;
 }
 
-li {
-    color: cyan;
-    text-decoration-line: underline;
-}
-
-.indentone {
-    padding-left: 1em;
-}
-.indenttwo {
-    padding-left: 2em;
-    list-style-type: circle;
-
-}
 .paragraph_body {
-    background-color: darkblue;
+    background-color: #0f1822;
     padding: 25px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 25px;
     vertical-align: top;
-    width: 700px;
+    width: 670px;
 }
 h2 {
-    color: white;
+    color:#c3d6eb;
 }
 p {
-    color: white;
+    color: #c3d6eb;
     
 }
 li {
-    color: white;
+    color: #c3d6eb;
     text-decoration-line: none;
 }
 .bluehighlight {
@@ -59,15 +55,16 @@ li {
     text-decoration-line: underline;
 }
 .purplehighlight {
-    color: rgb(238, 34, 238);
+    color: rgb(185, 37, 223);
 }
 .footer {
-    background-color: grey;
-    width: 970px;
-    height: 40px;
-    border-radius: 20px;
-    padding: 5px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    margin: 15px;
+    background-color: #5e6672;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+h3 {
+    padding: 12px 0px 12px 15px;
+    color: #c3d6eb;
 }
